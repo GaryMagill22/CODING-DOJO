@@ -1,0 +1,21 @@
+h1 {
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: purple;
+}
+
+h3 {
+    text-align: right;
+    color: black;
+    background-color: lightblue;
+    text-decoration: underline;
+}
+span {
+    color: lightblue;
+}

@@ -1,0 +1,26 @@
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    width: 600px;
+    display: flex;
+    border: 2px solid rgb(109, 101, 98);
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    background-color:rgb(147, 147, 187);
+    box-shadow: 3px 1px 3px 1px;
+    
+    
+}
+
+.card img {
+    box-shadow: 3px 1px 3px 1px;
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 70px;
+    
+}
+
+.flex-1 {
+    flex: 1;
+}

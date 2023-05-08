@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+</head>
+<body>
+    
+        <ul class="flexed navbar">
+            <li><h2 href="#">Dojanary</h2></li>
+            <li><input type="text" placeholder="Search.." class="searchbar"></li>
+            <li><button class="btn-login" id="1" onclick="changeText(this)">Login</button></li>
+        </ul>
+
+    <div class="main flexed">
+        <div class="col1">
+            <div class="container1 flexed">
+                <div class="box1">
+                    <h2>ninja</h2>
+                    <p><i>noun</i></p>
+                    <p><small>Plural: ninjas</small></p>
+                    <button class="btn" onclick="alert('Ninja was liked')">13 likes
+
+                    </button>
+
+                </div>
+                <p class="text">A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+
+            </div>
+            <div class="container1 flexed">
+                <div class="box1">
+                    <h2>ninja</h2>
+                    <p><i>noun</i></p>
+                    <p><small>Plural: ninjas</small></p>
+                    <button class="btn" onclick="alert('Ninja was liked')">37 likes
+
+                    </button>
+                </div>
+                <p class="text">A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a>-like<br>focus</p>
+            </div>
+
+        </div>
+
+
+        <div class="col2">
+            <div class="box3">
+                <p class="definition">Dojonary is<br> defined by YOU</p>
+                <button class="btn2" onclick="this.remove()">Add Definition</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>

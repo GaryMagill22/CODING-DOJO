@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+
+
+
+* {
+    font-family: "Balsamiq Sans", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.flexed {
+    display: flex;
+}
+.navbar {
+    /* height: 60px; */
+    background-color: lightgrey;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.7em;
+}
+
+.btn-login {
+    cursor: pointer;
+    width: 100px;
+}
+
+.searchbar {
+    height: 20px;
+    width: 300px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.main {
+    background-color: white;
+    height: 605px;
+    gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+}
+
+.col1 {
+    /* background-color: palevioletred; */
+    flex: 4; 
+}
+
+.btn {
+    text-align: center;
+    font-size: 0.5em;
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.col2 {
+    /* background-color: blueviolet; */
+    flex: 2;
+}
+
+.container1, .container2 {
+    margin-top: 30px;
+    border: 3px solid black;
+    height: 300px;
+}
+
+
+.container1 {
+    align-items: center;
+}
+
+.box1 {
+    /* width: 100%; */
+    text-align: center;
+    margin-left: 20px;
+    /* height: 300px; */
+    font-size: 2.0em;
+    
+}
+.box3 {
+    margin-top: 30px;
+    font-size: 2.3em;
+    padding-top: 50px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.text {
+    
+    align-items: center;
+    font-size: 2.0em;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.definition {
+    margin-left: 20px;
+}
+
+.btn2 {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 300px;
+    text-align: center;
+    font-size: 0.5em;
+    background-color: rgb(39, 132, 53);
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}

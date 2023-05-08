@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+  font-family: 'Balsamiq Sans', cursive;
+  /* border: 1px dotted red; */
+  margin: 0;
+  padding: 0;
+}
+
+/* CODE BELOW IS FOR NAVBAR */
+.nav, h1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 1px;
+    align-items: center;
+    
+}
+
+li {
+    font-size: 16px;
+    color: white;
+    
+    
+}
+
+.nav-links, li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.btn {
+    box-shadow: 1px 1px black;
+    padding: 9px 25px;
+    background-color:rgba(0, 136, 169, 1);
+    border: 1 px solid black;
+}
+
+.nav {
+  background-color: lightgrey;
+}
+
+
+/* ^^^ NAVBAR ENDS */
+
+/* PROFILE USER CARD CODE BELOW */
+.container1 {  
+  padding: 20px;
+  width: 500px;
+  background-color: white;
+  background: linear-gradient(0deg, white 70%, rgb(49, 161, 199) 30%);
+  border: 1px solid grey;
+  
+}
+
+.map-marker img {
+  height: 25px;
+}
+
+.map-marker {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.top-background img {
+  height: 80px;
+  margin-top: 30px;
+}
+#text2 {
+  text-decoration: underline;
+}
+/* END OF USER CARD */
+
+
+.container2 {
+  background-color: yellow;
+  display: flex;
+  padding: 20px;
+  width: 500px;
+}

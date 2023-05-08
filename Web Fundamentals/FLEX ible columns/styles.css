@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    flex: 1;
+    height: 50px;
+}
+
+.col, .col-2, .col-3 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    border: 1px solid black;
+    
+
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.col-3 {
+    flex-grow: 3;
+}

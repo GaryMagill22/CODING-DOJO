@@ -1,0 +1,30 @@
+* {
+  /* border: 1px dotted red; */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  width: 700px;
+  background-color: white;
+  background: linear-gradient(0deg, white 70%, rgb(49, 161, 199) 30%);
+  border: 1px solid grey;
+}
+
+.map-marker img {
+  height: 25px;
+}
+
+.map-marker {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.top-background img {
+  height: 80px;
+  margin-top: 30px;
+}
+#text2 {
+  text-decoration: underline;
+}

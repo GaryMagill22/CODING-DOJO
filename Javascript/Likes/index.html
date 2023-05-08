@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 id="logo">Network</h1>
+    </div>
+    <h3>Your Feed</h3>
+    <div class="main-container flexed">
+        <div id="column1" class="col1 flexed">
+                <div class="box4">
+                    <img src="./user-circle.png">
+                    <p class="avatar-link"><a href="#">Add an Avatar</a></p>
+                    <h2>James Doe</h2>
+                </div>
+            
+
+        </div>
+        
+        <div id="column2" class="col2">
+            <div class="container">
+                <div class="user1">
+                    <p id="some-user">Some User</p>
+                    <p><span id="count">9</span> like(s)</p>
+                    <button class="btn1" onclick="changeLikes('#count')">
+                        Like
+                    </button>
+                </div>
+                <p id="filler-text">I just set up this new discord bot, let me<br> know what you all think.<a href="#">link</a></p>
+            
+            </div>
+            <div class="container">
+                <div class="user1">
+                    <p id="some-user">Some User</p>
+                    <p><span id="count1">12</span> like(s)</p>
+                    <button class="btn1" onclick="changeLikes('#count1')">
+                        Like
+                    </button>
+                </div>
+                <p id="filler-text">Just finished my <a href="#">next comic,</a> check it out.</p>
+            
+            </div>
+            <div class="container">
+                <div class="user1">
+                    <p id="some-user">Some User</p>
+                    <p><span id="count2">10</span> like(s)</p>
+                    <button class="btn1" onclick="changeLikes('#count2')">
+                        Like
+                    </button>
+                </div>
+                <p id="filler-text">I cant stop listening to the <a href="#">new album.</a><br>Who else is liking it? </p>
+            
+            </div>
+        </div>    
+        </div>
+<script src="script.js"></script>
+</body>
+
+</html>
